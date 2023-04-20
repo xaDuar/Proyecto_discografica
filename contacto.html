@@ -7,26 +7,22 @@
     <link rel="stylesheet" href="./css/estilocontacto.css">
     <title>contacto</title>
 </head>
-<body id="fondo">
+<body class="fondo">
     <div class="divCentral"> 
-        <h1> Contacto</h1>
+        <h1 class="titulo"> Contacto</h1>
         <div class="divInput"> 
-            <ul>
-                <li>
-                    <input type="text" name="nombre" placeholder="Nombre">
-                </li>
-                <li> 
-                    <input type="text" name="email" placeholder="Correo electrónico">
-                </li>
-                <li>
-                    <input type="text" name="asunto" placeholder="Asunto">
-                </li>
-                <li>
-                    <input type="text" name="mensaje" placeholder="Mensaje">
-                </li>
-            <button type="button" name="boton"> Enviar </button>
-        </ul>
+            <input type="text" name="introducir_nombre" placeholder="Nombre">
+            <input type="email" name="introducir_email" placeholder="Correo electrónico">
+            <input type="text" name="introducir_asunto" placeholder="Asunto">
+            <textarea name="introducir_mensaje" class="texto_mensaje" placeholder="Deje aquí su comentario..."></textarea> 
+            <button type="submit" name="enviar_formulario"> <p>Enviar</p> </button>
         </div>
-
+        <div class="divImg"> 
+            <img src="./img/mensaje.png" class="logoMensaje" alt="icono_mensaje" class="logo">
+            <img src="./img/ubicacion.png" class="logoUbicacion" alt="icono_ubicacion" class="logo">
+            <img src="./img/telefono.png" class="logoTelefono" alt="icono_telefono" class="logo">   
+            
+        </div>
     </div>
+    
 </body>

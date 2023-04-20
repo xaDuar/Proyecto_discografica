@@ -4,7 +4,7 @@
     box-sizing: border-box;    
 }
 
-#fondo {
+.fondo {
     background-color: #96B5C6;
 }
 
@@ -14,10 +14,75 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1200px;
+    width: 1150px;
     height: 600px;
 }
 
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+
+.divImg {
+    position: absolute;
+    bottom: 440px;
+    left: 80px;
+}
+
 .divInput {
-    background-color: blue;
+    width: 460px; 
+    height: auto;
+    margin: 70px auto;
+    border-radius: 10px;  
+    padding-left: 300px; 
+    padding-top: 40px;
+}
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+.logoMensaje{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 1px;
+}
+
+.logoUbicacion{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+}
+
+.logoTelefono{
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    top: 105;
+    left: 6px;
 }
