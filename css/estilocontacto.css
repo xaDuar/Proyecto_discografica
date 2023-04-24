@@ -14,12 +14,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1150px;
+    width: 1140px;
     height: 600px;
 }
 
 .titulo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     position: absolute;
     left: 40%;
     top: 30px;
@@ -27,7 +27,7 @@
 
 .divImg {
     position: absolute;
-    bottom: 440px;
+    bottom: 472px;
     left: 80px;
 }
 
@@ -46,11 +46,23 @@ input{
 	height: 40px; 
 	border-radius: 5px;  
 	border-width: 1px; 
-	border-color: #ab4493; 
+	border-color: #000; 
 	margin-top: 10px;  
 	padding-left: 10px;
     margin-bottom: 20px; 
 }
+
+.boton{
+    background-color: #000;
+    color: #fbfbfb;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    left: 952px;
+      }
+    
 
 textarea{
     background-color: #fbfbfb; 
@@ -58,7 +70,7 @@ textarea{
 	height: 150px; 
 	border-radius: 5px;  
 	border-width: 1px; 
-	border-color: #ab4493; 
+	border-color: #000; 
 	margin-top: 10px;  
 	padding-left: 10px;
     margin-bottom: 20px; 
@@ -69,20 +81,74 @@ textarea{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 1px;
+    top: 50px;
 }
 
 .logoUbicacion{
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 33px;
     position: absolute;
-    top: 50px;
 }
 
 .logoTelefono{
     width: 22px;
     height: 24px;
     position: absolute;
-    top: 105;
+    top: 105px;
     left: 6px;
+}
+
+.logoFB{
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.logoIG{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.logoTW{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.textMensaje{
+    position: absolute;
+    top: 56px;
+    left: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textTelefono{
+    position: absolute;
+    top:109px;
+    left: 55px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textTelefono1{
+    position: absolute;
+    top: 136px;
+    left: 55px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textDireccion{
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
 }
