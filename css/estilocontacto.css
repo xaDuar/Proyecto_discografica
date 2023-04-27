@@ -14,21 +14,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1140px;
-    height: 600px;
+    width: 1110px;
+    height: 590px;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf)
 }
 
 .titulo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: titulo;
     position: absolute;
-    left: 40%;
-    top: 30px;
+    left: 42%;
+    top: 38px;
 }
 
 .divImg {
     position: absolute;
-    bottom: 472px;
-    left: 80px;
+    bottom: 468px;
+    left: 90px;
 }
 
 .divInput {
@@ -60,9 +65,9 @@ input{
     cursor: pointer;
     border: none;
     position: absolute;
-    left: 952px;
-      }
-    
+    left: 936px;
+}
+
 
 textarea{
     background-color: #fbfbfb; 
