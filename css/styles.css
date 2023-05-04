@@ -8,13 +8,14 @@ header {
     width: 100%;
     position: absolute;
     display: block;
-    background-color: transparent;
+}
+
+nav{
+    background-color: black;
 }
 
 nav ul {
-    position: absolute;
     width: 100%;
-    top: 6px;
     text-align: center;
   }
 
@@ -104,10 +105,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
-.centrarBloque {
-    display: block;
-    margin-left: 50%;
-  }
 
 @font-face {
     font-family: frases;
@@ -118,3 +115,37 @@ h1 {
     font-family: nombre;
     src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
 }
+
+footer{
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+  }
+
+footer ul li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+footer ul li a {
+    display: block; 
+    padding: 25px;
+    color: #999;
+    text-decoration: none;
+  }
+
+.imgRedes{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+
