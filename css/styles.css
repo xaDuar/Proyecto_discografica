@@ -69,16 +69,25 @@ h1 {
 
 .titulo{
     text-align: center;
-    height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    font-family: artistas, sans-serif;
+    font-size: 65px;
 }
 
 .nombreartista{
-    text-align:initial;
     font-family: nombre, sans-serif;
+}
+
+.infoart{
+    color: #ccc;
+    font-family: info,sans-serif;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+table p {
+    text-align:initial;
     margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom:40px;
 }
 
 .gif{
@@ -104,6 +113,7 @@ h1 {
 .centrar {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 55px;
   }
 
 @font-face {
@@ -115,7 +125,15 @@ h1 {
     font-family: nombre;
     src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
 }
+@font-face{
+    font-family: info;
+    src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
+}
 
+@font-face{
+    font-family: artistas;
+    src: url(../fonts/tungsten-font/Tungsten-Semibold.otf);
+}
 footer{
     height: auto;
     background-color: black;
@@ -148,4 +166,11 @@ footer ul li a {
     margin-top: 20px;
 }
 
+.fondo{
+    background-color: #66608C;
+}
 
+.centrarfooter{
+    margin-left: auto;
+    margin-right: auto;
+}
