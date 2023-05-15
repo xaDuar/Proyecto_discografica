@@ -111,6 +111,20 @@ table p {
  
 }
 
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+  }
+
+.centrarTabla {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
 @font-face {
     font-family: frases;
     src: url(../fonts/zuka-doodle-font/ZukaDoodle-Kz7y.ttf);
