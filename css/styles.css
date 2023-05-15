@@ -142,7 +142,6 @@ footer{
     height: auto;
     background-color: black;
     color: white;
-    text-align: center;
 }
 
 footer ul {
@@ -165,6 +164,19 @@ footer ul li a {
     font-family: Arial;
     margin-bottom: 15px;
   }
+
+.footerTitulo{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footerSubtitulo{
+    margin-top: 14px;
+    font-size: 12px;
+    font-family: Montserrat;
+    text-align: center;
+}
 
 .imgRedes{
     width: 30px;
