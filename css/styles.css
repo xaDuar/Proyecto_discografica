@@ -122,7 +122,6 @@ table p {
     margin-top: 60px;
     padding-bottom: 60px;
   }
-
   
 @font-face {
     font-family: frases;
@@ -190,8 +189,8 @@ footer ul li a {
 .imgRedes{
     width: 30px;
     height: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .fondo{
