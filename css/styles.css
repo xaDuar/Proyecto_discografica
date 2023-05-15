@@ -69,16 +69,25 @@ h1 {
 
 .titulo{
     text-align: center;
-    height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    font-family: artistas, sans-serif;
+    font-size: 65px;
 }
 
 .nombreartista{
-    text-align:initial;
     font-family: nombre, sans-serif;
+}
+
+.infoart{
+    color: #ccc;
+    font-family: info,sans-serif;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+table p {
+    text-align:initial;
     margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom:40px;
 }
 
 .gif{
@@ -115,7 +124,15 @@ h1 {
     font-family: nombre;
     src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
 }
+@font-face{
+    font-family: info;
+    src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
+}
 
+@font-face{
+    font-family: artistas;
+    src: url(../fonts/tungsten-font/Tungsten-Semibold.otf);
+}
 @font-face{
     font-family: Montserrat;
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.tff);
@@ -156,19 +173,4 @@ footer ul li a {
     margin-left: 20px;
 }
 
-.footerTitulo{
-    margin-top: 30px;
-    font-size: 20px;
-}
 
-.footerSubtitulo{
-    margin-top: 14px;
-    font-size: 12px;
-    font-family: Montserrat;
-}
-
-hr {
-    width: 50%;
-    height: 2px;
-    background-color: gray;
-  }
