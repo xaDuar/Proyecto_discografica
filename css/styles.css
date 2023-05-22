@@ -1,9 +1,11 @@
+/*Estilos para toda la página*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;    
 }
 
+/*Estilos para la BARRA de NAVEGACIÓN*/
 header {
     width: 100%;
     position: absolute;
@@ -11,7 +13,7 @@ header {
 }
 
 nav{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -20,7 +22,8 @@ nav ul {
   }
 
 nav ul li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
     display: inline-block;
     list-style: none;
     margin-left: 30px;
@@ -29,28 +32,35 @@ nav ul li {
 nav ul li a {
     display: block; 
     padding: 25px;
-    color: #999;
+    color: #000000;
     text-decoration: none;
   }
 
+/*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
 #logo {
 	top: 15px;
-	position:absolute;
-	width:70px;
-	height:45px;
-    left: 20px;
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 35px;
 }
 
-h1 {
-   position: absolute;
-   top: 50px; 
-}
-
+/*Estilos del GIF principal*/
 .gifinicio{
-    background-color: hsl(203deg 26% 69%);
+    background-color: hsl(250.71deg 24.56% 22.35%);
     text-align: center;
-  }
+    height: 100vh;
+}
 
+/*Centrar GIF principal horizontalmente y verticalmente*/
+.gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Estilos de la FRASE principal(aún no está porque la sacamos)*/ 
 .espacio_frase{
     height: 600px;
     text-align: center;
@@ -65,13 +75,38 @@ h1 {
     height: 100%;
 }
 
+/*Estilos de la parte ARTÍSTAS*/
+.fondo{
+    background-color: #66608C;
+}
+
+/*Estilos del TÍTULO principal de la parte ARTÍSTAS*/ 
 .titulo{
     text-align: center;
     height: 90px;
     font-family: artistas, sans-serif;
     font-size: 65px;
+    padding-top: 50px;
+    color: rgb(243, 243, 243)
+}
+
+/*Estilos del SUBTÍTULO principal de la parte ARTÍSTAS*/
+.subtitulo{
+    color: rgb(204, 204, 204);
+    text-align: center;
+    height: 90px;
+    font-family: artistas, sans-serif;
+    font-size: 25px;
     padding-top: 35px;
 }
+
+/*Estilos de la TABLA*/
+.centrarTabla {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 60px;
+  }
 
 .nombreartista{
     font-family: nombre, sans-serif;
@@ -89,11 +124,6 @@ table p {
     margin-left: 10px;
 }
 
-.gif{
-    position: relative;
-    /*top: 80px;*/
-}
-
 .centrado{
     margin: auto;
     display: block;
@@ -106,44 +136,10 @@ table p {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
- 
+    margin-bottom: 5px;
 }
 
-.centrar {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.centrarTabla {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-@font-face {
-    font-family: frases;
-    src: url(../fonts/zuka-doodle-font/ZukaDoodle-Kz7y.ttf);
-}
-
-@font-face {
-    font-family: nombre;
-    src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
-}
-@font-face{
-    font-family: info;
-    src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
-}
-
-@font-face{
-    font-family: artistas;
-    src: url(../fonts/tungsten-font/Tungsten-Semibold.otf);
-}
-@font-face{
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.tff);
-}
-
+/*Estilos del FOOTER*/
 footer{
     height: auto;
     background-color: black;
@@ -171,12 +167,28 @@ footer ul li a {
     margin-bottom: 15px;
   }
 
+/*Centrar TABLA de REDES SOCIALES*/
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*Estilos para ICONOS de REDES SOCIALES*/  
+.imgRedes{
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+/*Estilos para el TITULO del FOOTER*/  
 .footerTitulo{
     margin-top: 30px;
     font-size: 20px;
     text-align: center;
 }
 
+/*Estilos para el SUBTITULO del FOOTER*/
 .footerSubtitulo{
     margin-top: 14px;
     font-size: 12px;
@@ -184,13 +196,31 @@ footer ul li a {
     text-align: center;
 }
 
-.imgRedes{
-    width: 30px;
-    height: 30px;
-    margin-top: 50px;
-    margin-left: 10px;
+/*FUENTES agregadas*/
+@font-face {
+    font-family: frases;
+    src: url(../fonts/zuka-doodle-font/ZukaDoodle-Kz7y.ttf);
 }
 
-.fondo{
-    background-color: #66608C;
+@font-face {
+    font-family: nombre;
+    src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
+}
+@font-face{
+    font-family: info;
+    src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
+}
+
+@font-face{
+    font-family: artistas;
+    src: url(../fonts/tungsten-font/Tungsten-Semibold.otf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.tff);
+}
+
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Bold.otf);
 }
