@@ -8,41 +8,52 @@
 /*Estilos para la BARRA de NAVEGACIÓN*/
 header {
     width: 100%;
-    position: absolute;
+    position: relative;
     display: block;
 }
 
 nav{
-    background-color: #66608C;
+    background-color: #f3f3f3;
 }
 
 nav ul {
     width: 100%;
-    text-align: center;
+    position: relative;
+    left: 260px;
   }
 
 nav ul li {
     font-family: BrownStd-Regular, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     list-style: none;
-    margin-left: 30px;
 }
 
 nav ul li a {
     display: block; 
     padding: 25px;
-    color: #000000;
+    color: #141414;
     text-decoration: none;
+  }
+
+.button {
+    width: 130px;
+    height: 60px;
+    background-color: #4a4a4a;
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 82%;
   }
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
 #logo {
-	top: 15px;
+	top: 17px;
     position: absolute;
-    width: 145px;
-    height: 38px;
-    left: 35px;
+    width: 120px;
+    height: 40px;
+    left: 100px;
 }
 
 /*Estilos del GIF principal*/
