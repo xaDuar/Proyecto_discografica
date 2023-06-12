@@ -13,7 +13,7 @@ header {
 }
 
 nav{
-    background-color: #f3f3f3;
+    background-color: #66608C;
     width: 100%;
 }
 
@@ -43,11 +43,11 @@ nav ul li a {
 .button {
     width: 139px;
     height: 45px;
-    color: #fff;
+    color: #070707;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #3d348b;
+    background-color: #f3f3f3;
     position: relative;
     left:1000px;
   }
