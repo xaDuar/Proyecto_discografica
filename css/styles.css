@@ -31,7 +31,7 @@ nav ul li {
 nav ul li a {
     display: block; 
     padding: 25px;
-    color: #141414;
+    color: #f3f3f3;
     text-decoration: none;
   }
 
@@ -41,8 +41,8 @@ nav ul li a {
 }
 
 .button {
-    width: 139px;
-    height: 45px;
+    width: 130px;
+    height: 40px;
     color: #070707;
     padding: 5px 10px;
     cursor: pointer;
@@ -50,6 +50,7 @@ nav ul li a {
     background-color: #f3f3f3;
     position: relative;
     left:1000px;
+    text-align: center;
   }
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
