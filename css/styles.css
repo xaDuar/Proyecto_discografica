@@ -14,12 +14,11 @@ header {
 
 nav{
     background-color: #f3f3f3;
+    width: 100%;
 }
 
 nav ul {
-    width: 100%;
     position: relative;
-    left: 260px;
   }
 
 nav ul li {
@@ -36,15 +35,21 @@ nav ul li a {
     text-decoration: none;
   }
 
+.moverLi{
+    position: relative;
+    left:260px;
+}
+
 .button {
-    width: 130px;
-    height: 60px;
-    background-color: #4a4a4a;
-    border-radius: 6px;
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    left: 82%;
+    width: 139px;
+    height: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #3d348b;
+    position: relative;
+    left:1000px;
   }
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
