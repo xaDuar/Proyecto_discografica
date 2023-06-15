@@ -70,6 +70,7 @@ nav ul li a {
     /*background-color: #2D2C46;*/
     background-image: url(../img/fondo.gif);
     text-align: center;
+    padding-right: 10px;
 }
 
 /*Centrar GIF principal horizontalmente y verticalmente*/
