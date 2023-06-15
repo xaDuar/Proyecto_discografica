@@ -37,7 +37,12 @@ nav ul li a {
 
 .moverLi{
     position: relative;
-    left:260px;
+    left:245px;
+}
+
+.moverReproduction{
+    position: relative;
+    left: 945px;
 }
 
 .button {
@@ -58,16 +63,14 @@ nav ul li a {
 #logo {
 	bottom: -19px;
     position: absolute;
-    width: 256px;
+    width: 276px;
     height: 115px;
-    left: 2%;
 }
 
 /*Estilos del GIF principal*/
 .gifinicio{
     width: 100%;
     height: 100vh;
-    /*background-color: #2D2C46;*/
     background-image: url(../img/fondo.gif);
     text-align: center;
     padding-right: 10px;
