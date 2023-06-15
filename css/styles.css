@@ -67,7 +67,8 @@ nav ul li a {
 .gifinicio{
     width: 100%;
     height: 1140px;
-    background-color: #2D2C46;
+    /*background-color: #2D2C46;*/
+    background-image: url(../img/fondo.gif);
     text-align: center;
 }
 
