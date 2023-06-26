@@ -40,23 +40,16 @@ nav ul li a {
     left:245px;
 }
 
-.moverReproduction{
-    position: relative;
-    left: 945px;
-}
-
-.button {
+button {
     width: 130px;
     height: 40px;
     color: #070707;
-    padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
     background-color: #f3f3f3;
-    position: relative;
-    left: 722%;
     text-align: center;
-    bottom: 2px;
+    border: none;
+    font-family: BrownStd-Regular, sans-serif;
   }
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
@@ -199,8 +192,8 @@ footer ul li a {
 
 /*Estilos para ICONOS de REDES SOCIALES*/  
 .imgRedes{
-    width: 34px;
-    height: 32px;
+    width: 32px;
+    height: 31px;
     margin-top: 50px;
     margin-left: 15px;
 }
