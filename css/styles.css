@@ -76,11 +76,13 @@
     padding-bottom: 60px;
   }
 
+ /*Estilos para el TEXTO del nombre de los artistas*/ 
 .nombreartista{
     font-family: nombre, sans-serif;
     color: #f3f3f3;
 }
 
+/*Estilos para el TEXTO de la información de los artistas*/ 
 .infoart{
     color: #ccc;
     font-family: info,sans-serif;
@@ -100,6 +102,7 @@ table p {
     top: 50px;
 }
 
+/*Estilos de las IMÁGENES de la tabla de artistas*/
 .imgart{
     width: 239px;
     height: 239px;
@@ -166,7 +169,7 @@ footer ul li a {
     text-align: center;
 }
 
-/*Estilos de Ranking */
+/*Estilos de ventana RANKING*/
 .botoncolor{
     color: #fff;
     background-color: #66608C;
@@ -174,18 +177,18 @@ footer ul li a {
 }
 
 #frase {
-font-family: Montserrat;
-color: #f3f3f3;
-font-size: 70px;
-width: 20%;
-padding-top: 10%;
+    font-family: Montserrat;
+    color: #f3f3f3;
+    font-size: 70px;
+    width: 20%;
+    padding-top: 10%;
 }
 
 #posBotones{
-text-align: center;
-padding-top: 10%;
-
+    text-align: center;
+    padding-top: 10%;
 }
+
 #fondoR{
     background-image: url(../img/fondo.gif);
 }
@@ -214,6 +217,9 @@ padding-top: 10%;
 #espacioboton{
     margin-top: 40px;
 }
+
+/*Estilos de ventana ARTISTAS*/
+
 
 /*FUENTES agregadas*/
 @font-face {
