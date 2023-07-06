@@ -32,7 +32,6 @@
 .gifinicio{
     width: 100%;
     height: 100vh;
-    background-image: url(../img/fondo.gif);
     text-align: center;
     padding-right: 10px;
     position: relative;
@@ -165,6 +164,55 @@ footer ul li a {
     font-size: 12px;
     font-family: Montserrat;
     text-align: center;
+}
+
+/*Estilos de Ranking */
+.botoncolor{
+    color: #fff;
+    background-color: #66608C;
+    border-color: black;
+}
+
+#frase {
+font-family: Montserrat;
+color: #f3f3f3;
+font-size: 70px;
+width: 20%;
+padding-top: 10%;
+}
+
+#posBotones{
+text-align: center;
+padding-top: 10%;
+
+}
+#fondoR{
+    background-image: url(../img/fondo.gif);
+}
+
+#botones{
+    height: 50px;
+    width: 150%;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #66608C;
+    border-color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagenRanking{
+    border: 1px solid; color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#espacioo{
+    margin-bottom: 100px;
+}
+
+#espacioboton{
+    margin-top: 40px;
 }
 
 /*FUENTES agregadas*/
