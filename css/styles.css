@@ -29,11 +29,9 @@
 }
 
 /*Estilos del GIF principal*/
-.gifinicio{
+.gifPrincipal{
     width: 100%;
-    height: 100vh;
     text-align: center;
-    padding-right: 10px;
     position: relative;
 }
 
@@ -41,6 +39,11 @@
 .gif{
     position: relative;
     top: 10%;
+}
+
+.fondoPrincipal{
+    background-image: url(../img/fondo.gif);
+    height: 100vh;
 }
 
 /*Estilos de la parte ARTÍSTAS*/
@@ -189,10 +192,6 @@ footer ul li a {
     padding-top: 10%;
 }
 
-#fondoR{
-    background-image: url(../img/fondo.gif);
-}
-
 #botones{
     height: 50px;
     width: 150%;
@@ -219,7 +218,15 @@ footer ul li a {
 }
 
 /*Estilos de ventana ARTISTAS*/
+.contenedor{
+    background-color: #141414;
+    height: 100vh;
+}
 
+.divCarousel{
+    width: 1000px;
+    height: 100%;
+}
 
 /*FUENTES agregadas*/
 @font-face {
