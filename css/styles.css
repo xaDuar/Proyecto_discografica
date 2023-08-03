@@ -208,6 +208,14 @@ padding-top: 10%;
     margin-bottom: 100px;
 }
 
+#espaciobotonizq{
+    margin-right: 10px;
+}
+
+#espaciobotonderch{
+    margin-left: 10px;
+}
+
 /*FUENTES agregadas*/
 @font-face {
     font-family: frases;
