@@ -202,21 +202,36 @@ padding-top: 10%;
 }
 
 #imagenRanking{
-    border: 1px solid; color: white;
+    border: 1px solid;
+    color: white;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-top: 65px;
 }
 
 #espacioo{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 #espaciobotonizq{
-    margin-right: 10px;
+    padding-right: 35px;
 }
 
 #espaciobotonderch{
-    margin-left: 10px;
+    padding-left: 35px;
+}
+
+#estilocard{
+    background-color: #f8f9fa0d;
+    margin-left: 40px;
+}
+
+#centraricono{
+    text-align: center;
+    border: 1px solid; color: white;
+}
+
+#borde{
+    border: 1px solid; color: white;
 }
 
 /*FUENTES agregadas*/
