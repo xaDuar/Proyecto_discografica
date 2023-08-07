@@ -30,21 +30,18 @@
 
 /*Estilos del GIF principal*/
 .gifPrincipal{
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-/*Centrar GIF principal horizontalmente y verticalmente*/
-.gif{
-    position: relative;
-    top: 10%;
-}
-
-.fondoPrincipal{
     background-image: url(../img/fondo.gif);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+    
+/*Centrar GIF principal horizontalmente y verticalmente*/
+.gif{
+    width: 25%;
+    height: 50%;
+  }
 
 /*Estilos de la parte ARTÍSTAS*/
 .fondo{
@@ -223,10 +220,15 @@ footer ul li a {
     height: 100vh;
 }
 
-.divCarousel{
-    width: 1000px;
-    height: 100%;
+.img{
+    width: 50px;
+    height: 50px;
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
 
 /*FUENTES agregadas*/
 @font-face {

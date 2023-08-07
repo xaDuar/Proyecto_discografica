@@ -1,11 +1,16 @@
-let ubicacionPrincipal  = window.pageYOffset;
-window.onscroll = function() {
-    let Desplazamiento_Actual = window.pageYOffset;
-    if(ubicacionPrincipal >= Desplazamiento_Actual){
-        document.getElementById('navbar').style.top = '0';
-    }
-    else{
-        document.getElementById('navbar').style.top = '-100px';
-    }
-    ubicacionPrincipal = Desplazamiento_Actual;
-}
+import Swiper from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+var mySwiper = new Swiper('.swiper-container', {
+    // Opción para definir el número de elementos a mostrar en la pantalla en cada momento
+    slidesPerView: 3,
+    // Opción para habilitar el cambio automático entre los elementos del carrusel
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    // Opción para permitir el desplazamiento manual mediante gestos en dispositivos táctiles
+    touchMoveStopPropagation: true,
+  });
