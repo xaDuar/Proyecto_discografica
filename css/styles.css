@@ -174,16 +174,17 @@ footer ul li a {
 }
 
 #frase {
-font-family: Montserrat;
+font-family: artistas, sans-serif;
 color: #f3f3f3;
-font-size: 70px;
+font-size: 100px;
 width: 20%;
-padding-top: 10%;
+padding-top: 6%;
+padding-bottom: 3%;
 }
 
 #posBotones{
 text-align: center;
-padding-top: 10%;
+padding-top: 13%;
 
 }
 #fondoR{
@@ -227,11 +228,14 @@ padding-top: 10%;
 
 #centraricono{
     text-align: center;
-    border: 1px solid; color: white;
 }
 
 #borde{
     border: 1px solid; color: white;
+}
+
+#ajuste{
+    margin-bottom: 15px;
 }
 
 /*FUENTES agregadas*/
