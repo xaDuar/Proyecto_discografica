@@ -6,34 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>whalecome</title>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header class="contenedor">
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img class="img" src="./img/drefquila/drefquila1.jpg">
-        </div>
-        <div class="swiper-slide">
-          <img class="img" src="./img/drefquila/drefquila2.jpg">
-        </div>
-        <div class="swiper-slide">
-          <img class="img" src="./img/drefquila/drefquila3.jpg">
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-    
+  </head>
+<body class="body">
+  <header>                                     
   </header>
+  <div class="contenedor">  
+    <div>
+      <p class="tituloArtista">PRESENTACIÓN DEL ARTISTA</p>
+    </div>
+  <!--CARRUSEL -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-  <!--Footer-->
+<!--CSS carrusel-->
+  <style>
+    .sample-slider{
+        width:100%;
+        padding-top: 10%;
+    }
+
+    .sample-slider img{
+        width: 100%;
+        height: 450px;
+    }
+  </style>
+
+<!--HTML carrusel -->
+    <div class="swiper sample-slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/drefquila/drefquila1.jpg"></div>
+              <div class="swiper-slide"><img src="./img/drefquila/drefquila2.jpg"></div>
+              <div class="swiper-slide"><img src="./img/drefquila/drefquila3.jpg"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+
+<!--JS carrusel-->
+  <script>
+    const swiper = new Swiper('.sample-slider', {
+    loop: true,                         //loop
+    slidesPerView: 2,                   //number of slides to show
+    centeredSlides : true,              //put acctive slide center
+    spaceBetween: 20,                   //space between slides
+    autoplay: {                         //autoplay
+        delay: 2000,  
+    },   
+    pagination: {                       //pagination（dots）
+        el: '.swiper-pagination',
+    },
+    navigation: {                       //navigation（arrows）
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+  })
+  </script>
+
+<!--Footer-->
   <footer>
     <table class="centrar"> 
         <tr>
