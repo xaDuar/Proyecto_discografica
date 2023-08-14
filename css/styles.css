@@ -37,6 +37,8 @@
     position: relative;
 }
 
+
+
 /*Centrar GIF principal horizontalmente y verticalmente*/
 .gif{
     position: relative;
@@ -167,29 +169,19 @@ footer ul li a {
     text-align: center;
 }
 
+/*fondo de la beluga*/
+#fondoR{
+background-image: url(../img/fondo.gif);
+}
+
 /*Estilos de Ranking */
+
+/* estilos frase y dos botones (principio) */
+/*configuración de los botones del principio*/
 .botoncolor{
     color: #fff;
     background-color: #66608C;
     border-color: black;
-}
-
-#frase {
-font-family: artistas, sans-serif;
-color: #f3f3f3;
-font-size: 100px;
-width: 20%;
-padding-top: 6%;
-padding-bottom: 3%;
-}
-
-#posBotones{
-text-align: center;
-padding-top: 13%;
-
-}
-#fondoR{
-    background-image: url(../img/fondo.gif);
 }
 
 #botones{
@@ -203,6 +195,24 @@ padding-top: 13%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#posBotones{
+text-align: center;
+padding-top: 13%;
+}
+
+/*estilo de la frase*/
+#frase {
+font-family: artistas, sans-serif;
+color: #f3f3f3;
+font-size: 100px;
+width: 20%;
+padding-top: 6%;
+padding-bottom: 3%;
+}
+
+/*estilos de las columnas carrusel e imagen*/
+
+/*estilo de y posicion de la imagen*/
 #imagenRanking{
     border: 1px solid;
     color: white;
@@ -210,33 +220,30 @@ padding-top: 13%;
     margin-top: 65px;
 }
 
+/*espacio entre la primera columna de 2 botones y la columna del carrusel / espacio entre el footer y el final del carusel*/
 #espacioo{
     margin-bottom: 70px;
 }
 
+/* estios para mover los botones del carrusel*/
 #espaciobotonizq{
-    padding-right: 35px;
+    padding-right: 55px;
 }
 
 #espaciobotonderch{
-    padding-left: 35px;
+    padding-left: 55px;
 }
 
+/* estilo de las cards que estan dentro del carrusel*/
 #estilocard{
     background-color: #f8f9fa0d;
     margin-left: 40px;
 }
 
-#centraricono{
-    text-align: center;
-}
-
-#borde{
-    border: 1px solid; color: white;
-}
-
+/*espacio para igualar la primer decoracion y la ultima del carrusel ademas de centrar la corona*/
 #ajuste{
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /*FUENTES agregadas*/
