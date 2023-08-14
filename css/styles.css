@@ -221,10 +221,11 @@ footer ul li a {
     color: #f3f3f3;
     position: relative;
     top: 48px;
+    padding-left: 25%;
 }
 
 .tamanio {
-    height: 653px !important; 
+    bottom: 110px;
 }
 
 /*FUENTES agregadas*/
