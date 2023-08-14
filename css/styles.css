@@ -258,7 +258,7 @@ padding-bottom: 3%;
 
 .tituloArtista{
     font-family: artistas, sans-serif;
-    font-size: 54px;
+    font-size: 48px;
     color: #f3f3f3;
     position: relative;
     top: 48px;
@@ -266,7 +266,7 @@ padding-bottom: 3%;
 }
 
 .tamanio {
-    bottom: 110px;
+    bottom: 98px;
 }
 
 /*FUENTES agregadas*/
@@ -281,9 +281,15 @@ padding-bottom: 3%;
 }
 
 @font-face {
+    font-family: NotoSansKr;
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Black.otf);
+}
+
+@font-face {
     font-family: nombre;
     src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
 }
+
 @font-face{
     font-family: info;
     src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
