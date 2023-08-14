@@ -178,11 +178,10 @@ footer ul li a {
 background-image: url(../img/fondo.gif);
 }
 
-/*Estilos de Ranking */
+/*Estilos de la ventana Ranking */
 
 /* estilos frase y dos botones (principio) */
 /*configuración de los botones del principio*/
-/*Estilos de ventana RANKING*/
 .botoncolor{
     color: #fff;
     background-color: #66608C;
