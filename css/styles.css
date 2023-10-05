@@ -256,6 +256,10 @@ padding-bottom: 3%;
     height: 100vh;
 }
 
+.imgInicio{
+    height: 100;
+}
+
 .tituloArtista{
     font-family: artistas, sans-serif;
     font-size: 54px;
