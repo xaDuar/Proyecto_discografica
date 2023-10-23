@@ -36,9 +36,6 @@
     justify-content: center;
     align-items: center;
 }
-    
-
-
 
 /*Centrar GIF principal horizontalmente y verticalmente*/
 .gif{
@@ -49,6 +46,7 @@
 /*Estilos de la parte ARTÍSTAS*/
 .fondo{
     background-color: #141414;
+    padding-bottom: 52px;
 }
 
 /*Estilos del TÍTULO principal de la parte ARTÍSTAS*/ 
@@ -257,7 +255,8 @@ padding-bottom: 3%;
 }
 
 .imgInicio{
-    height: 100;
+    height: 100vh;
+    width: 100%;
 }
 
 .tituloArtista{
@@ -271,6 +270,41 @@ padding-bottom: 3%;
 
 .tamanio {
     bottom: 110px;
+}
+
+.tablaArtista{
+    width: 280px;
+    height: 280px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+ /*Estilos para el TEXTO del nombre de los artistas*/ 
+.nombreartista{
+    font-family: nombre, sans-serif;
+    color: #f3f3f3;
+}
+
+/*Estilos para el TEXTO de la información de los artistas*/ 
+.infoart{
+    color: #ccc;
+    font-family: info,sans-serif;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.centrado{
+    margin: auto;
+    display: block;
+    top: 50px;
+}
+
+table p {
+    text-align:initial;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 /*FUENTES agregadas*/
