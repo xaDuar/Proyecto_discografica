@@ -36,9 +36,6 @@
     justify-content: center;
     align-items: center;
 }
-    
-
-
 
 /*Centrar GIF principal horizontalmente y verticalmente*/
 .gif{
@@ -49,6 +46,7 @@
 /*Estilos de la parte ARTÍSTAS*/
 .fondo{
     background-color: #141414;
+    padding-bottom: 52px;
 }
 
 /*Estilos del TÍTULO principal de la parte ARTÍSTAS*/ 
@@ -256,6 +254,11 @@ padding-bottom: 3%;
     height: 100vh;
 }
 
+.imgInicio{
+    height: 100vh;
+    width: 100%;
+}
+
 .tituloArtista{
     font-family: artistas, sans-serif;
     font-size: 54px;
@@ -267,6 +270,63 @@ padding-bottom: 3%;
 
 .tamanio {
     bottom: 110px;
+}
+
+.tablaArtista{
+    background-image: url("./img/drefquila/ClauditoSunshine.jpg");
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    width: 280px;
+    height: 280px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.tablaArtista:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.tablaArtista h1 {
+	font-size: 60px;
+	color: #fff;
+	position: relative
+}
+
+ /*Estilos para el TEXTO del nombre de los artistas*/ 
+.nombreartista{
+    font-family: nombre, sans-serif;
+    color: #f3f3f3;
+}
+
+/*Estilos para el TEXTO de la información de los artistas*/ 
+.infoart{
+    color: #ccc;
+    font-family: info,sans-serif;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.centrado{
+    margin: auto;
+    display: block;
+    top: 50px;
+}
+
+table p {
+    text-align:initial;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 /*FUENTES agregadas*/
