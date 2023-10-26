@@ -24,8 +24,16 @@
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
 #logo {
-    width: 249px;
-    height: 108px;
+    width: 149px;
+    height: 73px;
+}
+
+.moverUL{
+    margin-left: 30px;
+}
+
+.moverIS{
+    padding-left: 770px;
 }
 
 /*Estilos del GIF principal*/
