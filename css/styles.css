@@ -317,6 +317,15 @@ padding-bottom: 3%;
     margin-bottom: 22px;
 }
 
+.tituloart{
+    text-align: center;
+    height: 90px;
+    font-family: artistas, sans-serif;
+    font-size: 65px;
+    padding-top: 25px;
+    color: #f3f3f3;
+}
+
 .centrado{
     margin: auto;
     display: block;
