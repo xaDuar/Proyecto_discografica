@@ -5,12 +5,14 @@
     box-sizing: border-box;    
 }
 
+
+/*PÁGINA PRINCIPAL, DISCOGRÁFICA*/
 /*Estilos para la BARRA de NAVEGACIÓN*/
 #nav{
     background-color: #66608C;
     height: 62px;
     font-size: 16px;
-    font-family: BrownStd-Regular;
+    font-family: info, sans-serif;
 }
 
 #moverLi{
@@ -33,7 +35,7 @@
 }
 
 .moverIS{
-    padding-left: 770px;
+    padding-left: 778px;
 }
 
 /*Estilos del GIF principal*/
@@ -179,14 +181,8 @@ footer ul li a {
     text-align: center;
 }
 
-/*fondo de la beluga*/
-#fondoR{
-background-image: url(../img/fondo.gif);
-}
-
-/*Estilos de la ventana Ranking */
-
-/* estilos frase y dos botones (principio) */
+/*ESTILOS DE LA VENTANA RANKING*/
+/* estilos frase y dos botones (principio)*/
 /*configuración de los botones del principio*/
 .botoncolor{
     color: #fff;
@@ -256,15 +252,49 @@ padding-bottom: 3%;
     text-align: center;
 }
 
+/*ESTILOS DE LA VENTANA DREFQUILA*/
 /*Estilos de ventana ARTISTAS*/
 .contenedor{
     background-color: #141414;
     height: 100vh;
 }
 
-.imgInicio{
-    height: 100vh;
-    width: 100%;
+.h-700{
+    height: 700px!important;
+}
+
+.textoRedes{
+    color: #ccc;
+    text-align: center;
+    height: 90px;
+    font-family: BrownStd-Regular;
+    font-size: 18px;
+    padding-top: 55px;
+}
+
+.tamañoRedes{
+    width: 39px;
+    height: 38px;
+    margin-left: 15px;
+}
+
+.divRecomendacion{
+    background-color: #070707;
+    height: 500px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.imgRecomendacion{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 14px;
 }
 
 .tituloArtista{
