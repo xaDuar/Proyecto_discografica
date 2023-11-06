@@ -278,23 +278,39 @@ padding-bottom: 3%;
     margin-left: 15px;
 }
 
-.divRecomendacion{
+.tablaRecomendacion{
     background-color: #070707;
-    height: 500px;
-    width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
+    width: 1236px;
     margin-top: 50px;
     border-radius: 12px;
+
 }
 
 .imgRecomendacion{
     width: 400px;
-    height: 400px;
+    height: 390px;
     margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 14px;
+}
+
+.imgFirma{
+    width: 20%;
+    height: 18%;
+    margin-left: 73%;
+}
+
+.textoRecomendacion{
+    max-width: 97%;
+    font-size: 28px;
+    padding-top: 5%;
+    font-family: BrownStd-Regular, Montserrat, sans-serif;
+    color: #ccc;
 }
 
 .tituloArtista{
@@ -378,18 +394,8 @@ table p {
 
 /*FUENTES agregadas*/
 @font-face {
-    font-family: frases;
-    src: url(../fonts/zuka-doodle-font/ZukaDoodle-Kz7y.ttf);
-}
-
-@font-face {
     font-family: BrownStd-Regular;
     src: url(../fonts/BrownStd-Regular/FontsFree-Net-Brown-Regular-Regular.ttf);
-}
-
-@font-face {
-    font-family: NotoSansKr;
-    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Black.otf);
 }
 
 @font-face {
@@ -409,9 +415,4 @@ table p {
 @font-face{
     font-family: Montserrat;
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.tff);
-}
-
-@font-face {
-    font-family: Noto Sans KR;
-    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Bold.otf);
 }
