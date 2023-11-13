@@ -152,6 +152,11 @@ footer ul li a {
     margin-bottom: 15px;
   }
 
+.tdFooter{
+    position: relative;
+    left: 12px;
+}
+
 /*Centrar TABLA de REDES SOCIALES*/
 .centrar {
     margin-left: auto;
@@ -270,11 +275,12 @@ padding-bottom: 3%;
     font-family: BrownStd-Regular;
     font-size: 18px;
     padding-top: 55px;
+    margin-left: 20px;
 }
 
 .tamañoRedes{
-    width: 39px;
-    height: 38px;
+    width: 38px;
+    height: 36px;
     margin-left: 15px;
 }
 
