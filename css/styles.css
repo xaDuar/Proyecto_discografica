@@ -202,19 +202,9 @@ text-align: center;
 padding-top: 13%;
 }
 
-/*estilo de la frase*/
-#frase {
-font-family: artistas, sans-serif;
-color: #f3f3f3;
-font-size: 100px;
-width: 20%;
-padding-top: 6%;
-padding-bottom: 3%;
-}
-
-#letrabaner {
-    padding-bottom: 40px;
-    padding-top: 40px;
+#banertamano{
+    width: 100%;
+    margin-bottom: 150px;
 }
 
 /*estilos de las columnas carrusel e imagen*/
