@@ -183,6 +183,14 @@ footer ul li a {
 
 /*ESTILOS DE LA VENTANA RANKING*/
 /* estilos frase y dos botones (principio)*/
+/*fondo de la beluga*/
+#fondoR{
+background-image: url(../img/fondo.gif);
+}
+
+/*Estilos de la ventana Ranking */
+
+/* estilos banner y dos botones (principio) */
 /*configuración de los botones del principio*/
 .botoncolor{
     color: #fff;
@@ -190,15 +198,32 @@ footer ul li a {
     border-color: black;
 }
 
-#botones{
-    height: 50px;
-    width: 150%;
+#boton1{
+    height: 65px;
+    width: 65%;
     margin-bottom: 15px;
     color: #fff;
     background-color: #66608C;
     border-color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 5%;
+}
+
+#boton2{
+    height: 65px;
+    width: 65%;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #66608C;
+    border-color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 30%;
 }
 
 #posBotones{
@@ -206,14 +231,14 @@ text-align: center;
 padding-top: 13%;
 }
 
-/*estilo de la frase*/
-#frase {
-font-family: artistas, sans-serif;
-color: #f3f3f3;
-font-size: 100px;
-width: 20%;
-padding-top: 6%;
-padding-bottom: 3%;
+#banertamano{
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+
 }
 
 /*estilos de las columnas carrusel e imagen*/
@@ -228,7 +253,7 @@ padding-bottom: 3%;
 
 /*espacio entre la primera columna de 2 botones y la columna del carrusel / espacio entre el footer y el final del carusel*/
 #espacioo{
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 /* estios para mover los botones del carrusel*/
