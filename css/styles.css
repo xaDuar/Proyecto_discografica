@@ -5,7 +5,6 @@
     box-sizing: border-box;    
 }
 
-
 /*PÁGINA PRINCIPAL, DISCOGRÁFICA*/
 /*Estilos para la BARRA de NAVEGACIÓN*/
 #nav{
@@ -15,10 +14,6 @@
     font-family: info, sans-serif;
 }
 
-#moverLi{
-    margin-left: -40px;
-}
-
 #navBoton{
     margin-right: 40px;
     width: 122px;
@@ -26,16 +21,13 @@
 
 /*Estilos del LOGO de la BARRA de NAVEGACIÓN*/
 #logo {
-    width: 149px;
-    height: 73px;
-}
-
-.moverUL{
-    margin-left: 30px;
+    width: 148px;
+    height: 54px;
+    margin-left: 12px;
 }
 
 .moverIS{
-    padding-left: 778px;
+    padding-left: 1130px;
 }
 
 /*Estilos del GIF principal*/
@@ -285,8 +277,21 @@ padding-top: 13%;
 }
 
 .h-700{
-    height: 700px!important;
+    height: 100vh!important;
 }
+
+.gifArtista{
+    background-image: url(../img/fondo.gif);
+    height: 100vh;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.gifLogo{
+    width: 15%;
+    height: 30%;
+  }
 
 .textoRedes{
     color: #ccc;
