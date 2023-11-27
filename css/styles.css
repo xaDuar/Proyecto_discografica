@@ -265,7 +265,6 @@ padding-top: 13%;
     text-align: center;
 }
 
-/*ESTILOS DE LA VENTANA DREFQUILA*/
 /*Estilos de ventana ARTISTAS*/
 .contenedor{
     background-color: #141414;
@@ -347,16 +346,16 @@ padding-top: 13%;
 }
 
 .tituloArtista{
-    font-family:  Montserrat, artistas, sans-serif;
-    font-size: 48px;
+    font-family: artistas, sans-serif;
+    font-size: 54px;
     color: #f3f3f3;
     position: relative;
-    top: 90px;
-    padding-left: 20%;
+    top: 48px;
+    padding-left: 25%;
 }
 
 .tamanio {
-    bottom: 98px;
+    bottom: 110px;
 }
 
 .tablaArtista{
@@ -404,15 +403,6 @@ padding-top: 13%;
     margin-bottom: 22px;
 }
 
-.tituloart{
-    text-align: center;
-    height: 90px;
-    font-family: artistas, sans-serif;
-    font-size: 65px;
-    padding-top: 25px;
-    color: #f3f3f3;
-}
-
 .centrado{
     margin: auto;
     display: block;
@@ -427,6 +417,11 @@ table p {
 
 /*FUENTES agregadas*/
 @font-face {
+    font-family: frases;
+    src: url(../fonts/zuka-doodle-font/ZukaDoodle-Kz7y.ttf);
+}
+
+@font-face {
     font-family: BrownStd-Regular;
     src: url(../fonts/BrownStd-Regular/FontsFree-Net-Brown-Regular-Regular.ttf);
 }
@@ -435,7 +430,6 @@ table p {
     font-family: nombre;
     src: url(../fonts/BrownStd-Bold/BrownStd-Bold.ttf);
 }
-
 @font-face{
     font-family: info;
     src: url(../fonts/BrownStd-Light/Brown-Light.ttf);
@@ -448,4 +442,9 @@ table p {
 @font-face{
     font-family: Montserrat;
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.tff);
+}
+
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Bold.otf);
 }
