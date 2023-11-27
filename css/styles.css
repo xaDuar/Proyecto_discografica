@@ -43,8 +43,8 @@
 
 /*Estilos de la parte ARTÍSTAS*/
 .fondo{
-    background-color: #141414;
     padding-bottom: 52px;
+    background-color: #141414;
 }
 
 /*Estilos del TÍTULO principal de la parte ARTÍSTAS*/ 
@@ -89,18 +89,6 @@
     margin-bottom: 22px;
 }
 
-.centrado{
-    margin: auto;
-    display: block;
-    top: 50px;
-}
-
-table p {
-    text-align:initial;
-    margin-left: 10px;
-    margin-bottom: 0;
-}
-
 /*Estilos de las IMÁGENES de la tabla de artistas*/
 .imgart{
     width: 239px;
@@ -116,6 +104,12 @@ footer{
     height: auto;
     background-color: #070707;
     color: white;
+}
+
+table p {
+    text-align:initial;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 footer ul {
@@ -169,16 +163,14 @@ footer ul li a {
     text-align: center;
 }
 
-/*ESTILOS DE LA VENTANA RANKING*/
-/* estilos frase y dos botones (principio)*/
-/*fondo de la beluga*/
-#fondoR{
-background-image: url(../img/fondo.gif);
+
+
+/*ESTILOS DE LA VENTANA RANKING y NUEVOS LANZAMIENTOS*/
+.fondoRanking{
+    background-color: #141414;
 }
 
-/*Estilos de la ventana Ranking */
-
-/* estilos banner y dos botones (principio) */
+/*estilos banner y dos botones (principio)*/
 /*configuración de los botones del principio*/
 .botoncolor{
     color: #fff;
@@ -226,11 +218,9 @@ padding-top: 13%;
     margin-right: auto;
     display: block;
     border-radius: 10px;
-
 }
 
 /*estilos de las columnas carrusel e imagen*/
-
 /*estilo de y posicion de la imagen*/
 #imagenRanking{
     border: 1px solid;
@@ -264,6 +254,9 @@ padding-top: 13%;
     margin-bottom: 15px;
     text-align: center;
 }
+
+
+
 
 /*Estilos de ventana ARTISTAS*/
 .contenedor{
@@ -312,7 +305,6 @@ padding-top: 13%;
     width: 1236px;
     margin-top: 50px;
     border-radius: 12px;
-
 }
 
 .imgRecomendacion{
@@ -343,76 +335,6 @@ padding-top: 13%;
     padding-top: 5%;
     font-family: BrownStd-Regular, Montserrat, sans-serif;
     color: #ccc;
-}
-
-.tituloArtista{
-    font-family: artistas, sans-serif;
-    font-size: 54px;
-    color: #f3f3f3;
-    position: relative;
-    top: 48px;
-    padding-left: 25%;
-}
-
-.tamanio {
-    bottom: 110px;
-}
-
-.tablaArtista{
-    background-image: url("./img/drefquila/ClauditoSunshine.jpg");
-	text-align: center;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-    width: 280px;
-    height: 280px;
-    margin-left: 15px;
-    margin-right: 10px;
-    border-radius: 10px;
-    margin-bottom: 22px;
-}
-
-.tablaArtista:before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
-
-.tablaArtista h1 {
-	font-size: 60px;
-	color: #fff;
-	position: relative
-}
-
- /*Estilos para el TEXTO del nombre de los artistas*/ 
-.nombreartista{
-    font-family: nombre, sans-serif;
-    color: #f3f3f3;
-}
-
-/*Estilos para el TEXTO de la información de los artistas*/ 
-.infoart{
-    color: #ccc;
-    font-family: info,sans-serif;
-    font-size: 12px;
-    margin-bottom: 22px;
-}
-
-.centrado{
-    margin: auto;
-    display: block;
-    top: 50px;
-}
-
-table p {
-    text-align:initial;
-    margin-left: 10px;
-    margin-bottom: 0;
 }
 
 /*FUENTES agregadas*/
