@@ -6,58 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./scripts/script.js"></script>
-    <link rel="shortcut icon" href="./img/image.jpg" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Bootstrap 5 CARRUSEL DE CANCIONES-->
-    <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css">
-    <script src="/path/to/cdn/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="./img/ballenasilueta.ico">
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css">
+<script src="/path/to/cdn/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="./img/ballenasilueta.ico">
     <title>Ranking</title>
 </head>
 
 
 <body class="fondo">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" src="./img/Logo.png" alt="Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 moverUL">
-              <li class="nav-item" id="moverLi">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#seccionArtistas">Artistas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./ranking.html">Ranking</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Reproducción
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://open.spotify.com/playlist/0HFC2whOUk7Nbwd3UV3d0W">Spotify</a></li>
-                  <li><a class="dropdown-item" href="#">YouTube Music</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img id="logo" src="./img/logo.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" id="moverLi">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#seccionArtistas">Artistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./ranking.html">Ranking</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Reproducción
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://open.spotify.com/playlist/0HFC2whOUk7Nbwd3UV3d0W">Spotify</a></li>
+                      <li><a class="dropdown-item" href="#">YouTube Music</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item moverIS">
-                <a class="nav-link active"href="#">Iniciar sesión</a>
-              </li>
-            </ul>
-            <a href="./contacto.html"> 
-              <button class="btn btn-light" type="submit" id="navBoton">Contacto</button>
-            </a>
-          </div>
-        </div>
-      </nav>
-  </header>
-<!--columnas hechas con booostrap (frase y los 2 botones)-->
-    <div class="container">
+                <a href="./contacto.html"> 
+                  <button class="btn btn-light" type="submit" id="navBoton">Contacto</button>
+                </a>
+              </div>
+            </div>
+          </nav>
+      </header>
+<!--columnas hechas con booostrap (baner y los 2 botones)-->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <img src="./img/ranking/banerranking.jpg" alt="" id="banertamano">
+  </div>
+  </div>
+
+<!--columna2 botones-->
+
+          <!--primer boton-->
         <div class="row" id="espacioo">
           <div class="col">            
               <a href="./ranking.html"><button id="boton1" type="button" class="btn btn-outline-danger">Ranking 👑</button></a>
@@ -322,26 +328,28 @@
 <!--inicio del footer-->
       <footer>
         <table class="centrar"> 
-          <tr>
-            <th>
-                <td class="tdFooter">
-                <a href="#"><img src="./img/footer/tw.png" class="imgRedes"></a>
-                <a href="#"><img src="./img/footer/wapp.png" class="imgRedes"></a>
-                <a href="#"><img src="./img/footer/fb.png" class="imgRedes"></a>
-                <a href="#"><img src="./img/footer/ig.png" class="imgRedes"></a>
-                </td>  
-            </th>
-          </tr>
-          <tr>
-              <th>
-                  <td><p class="footerTitulo"> whalecome </p></td>
-              </th>
-          </tr>
-          <tr> 
-              <th> 
-                  <td><p class="footerSubtitulo"> Copyright © 2023 whalecome, Discográfica </p></td>
-              </th>
-          </tr>
+            <tr>
+                <th>
+                    <td>
+                    <a href="https://twitter.com/analchanteuse/status/1673170492830924801"><img src="./img/footer/twitter.png" class="imgRedes"></a>
+                    <a href="#"><img src="./img/footer/youtube.png" class="imgRedes"></a>
+                    <a href="#"><img src="./img/footer/spotify.png" class="imgRedes"></a>
+                    <a href="#"><img src="./img/footer/soundcloud.png" class="imgRedes"></a>
+                    <a href="#"><img src="./img/footer/facebook.png" class="imgRedes"></a>
+                    <a href="#"><img src="./img/footer/instagram.png" class="imgRedes"></a>
+                    </td>  
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td><p class="footerTitulo"> whalecome </p></td>
+                </th>
+            </tr>
+            <tr> 
+                <th> 
+                    <td><p class="footerSubtitulo"> Copyright © 2023 whalecome, Discográfica </p></td>
+                </th>
+            </tr>
         </table>
         <ul>
             <li><a href="./nuevoslanzamientos.html">Información legal</a></li>

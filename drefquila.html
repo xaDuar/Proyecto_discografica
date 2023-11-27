@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>whalecome | DrefQuila</title>
-    <link rel="shortcut icon" href="./img/image.jpg" >
+    <title>whalecome</title>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </head>
 <body class="body">
 <!--Barra de navegación-->
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" src="./img/Logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="#"><img id="logo" src="./img/logo.png" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 moverUL">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item" id="moverLi">
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
@@ -40,9 +39,6 @@
                   <li><a class="dropdown-item" href="#">YouTube Music</a></li>
                 </ul>
               </li>
-              <li class="nav-item moverIS">
-                <a class="nav-link active"href="#">Iniciar sesión</a>
-              </li>
             </ul>
             <a href="./contacto.html"> 
               <button class="btn btn-light" type="submit" id="navBoton">Contacto</button>
@@ -50,85 +46,60 @@
           </div>
         </div>
       </nav>
-  </header>
+  </header> 
 <!--Inicio-->
   <div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/drefquila/ejemplo.png" class="d-block w-100 h-700" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/drefquila/DrefConcierto.jpg" class="d-block w-100 h-700" alt="...">
-        </div>
-        <div class="carousel-item">
-          <iframe class="d-block w-100 h-700" src="https://www.youtube.com/embed/RlnDn78gpgc" title="YouTube video player" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+  <img class="imgInicio" src="./img/drefquila/DrefBanner.jpg"> 
   </div>
 <!--Sección de ARTISTAS -->
 <section id="seccionArtistas">
   <div class="fondo">
-    <div>
-      <p class="textoRedes"> Encontrá todas sus redes oficiales </p>
-      <table class="centrar"> 
+    <p class="titulo">PRODUCCIONES</p>
+    <p class="subtitulo"> Álbumes, colaboraciones, sencillos. </p>
+    <table class="centrarTabla">
+        <tr> 
+            <th>
+                <td><img src="./img/drefquila/ClauditoSunshine.jpg" class="tablaArtista"></td>
+                <td><img src ="./img/artistas/jesse.jpg" class="tablaArtista"></td>
+                <td><img src="./img/artistas/frankocean.jpg" class="tablaArtista"></td>
+                <td><img src="./img/artistas/kaliuchis.jpg" class="tablaArtista"></td>
+            </th>
+        </tr>
         <tr>
             <th>
-                <td>
-                <a href="https://www.facebook.com/drefquila/?locale=es_LA"><img src="./img/footer/facebook.png" class="tamañoRedes"></a>
-                <a href="https://soundcloud.com/drefquila"><img src="./img/footer/soundcloud.png" class="tamañoRedes"></a>
-                <a href="https://twitter.com/dref_kun"><img src="./img/footer/twitter.png" class="tamañoRedes"></a>
-                <a href="https://www.youtube.com/channel/UCCJ0kCaWlCtL6fSaPDr2-_A"><img src="./img/footer/youtube.png" class="tamañoRedes"></a>
-                <a href="https://open.spotify.com/intl-es/artist/5pughe5rcsOq3GF0utMOs5"><img src="./img/footer/spotify.png" class="tamañoRedes"></a>
-                <a href="https://www.instagram.com/dref_kun/?hl=es"><img src="./img/footer/instagram.png" class="tamañoRedes"></a>
-                </td>  
+                <td><img src="./img/artistas/oranges.jpg" class="tablaArtista"></td>
+                <td><img src ="./img/artistas/bibi.jpg" class="tablaArtista"></td>
+                <td><img src="./img/artistas/kendrick.jpg" class="tablaArtista"></td>
+                <td><img src="./img/artistas/alvaro.jpg" class="tablaArtista"></td>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <td><img src="./img/artistas/cee.jpg" class="tablaArtista"></td>
+            <td><img src ="./img/artistas/cas.jpg" class="tablaArtista"></td>
+            <td><img src="./img/artistas/duki.jpg" class="tablaArtista"></td>
+            <td><img src="./img/artistas/rels.jpg" class="tablaArtista"></td>
+                
             </th>
         </tr>
     </table>
-    </div>
-    <table class="tablaRecomendacion">
-      <tr> 
-          <th>
-            <td><img class="imgRecomendacion" src="./img/drefquila/Kun.jpg"></td>
-            <td>
-              <p class="textoRecomendacion"> 	
-                ❝En 2020, lancé mi primer proyecto con Whalecome porque entienden la propiedad de los artistas como ninguna otra plataforma. 
-              Pocos meses después, nos acercamos al millón de reproducciones, ¡Gracias Whalecome!❞. </p>        
-              <img class="imgFirma" src="./img/drefquila/firma.png">
-            </td> 
-          </th>
-      </tr>
-    </table>
-</div>
+  </div>
 </section>
 <!--Footer-->
   <footer>
     <table class="centrar"> 
-      <tr>
-        <th>
-            <td class="tdFooter">
-            <a href="#"><img src="./img/footer/tw.png" class="imgRedes"></a>
-            <a href="#"><img src="./img/footer/wapp.png" class="imgRedes"></a>
-            <a href="#"><img src="./img/footer/fb.png" class="imgRedes"></a>
-            <a href="#"><img src="./img/footer/ig.png" class="imgRedes"></a>
-            </td>  
-        </th>
-      </tr>
+        <tr>
+            <th>
+                <td>
+                <a href="https://twitter.com/analchanteuse/status/1673170492830924801"><img src="./img/footer/twitter.png" class="imgRedes"></a>
+                <a href="#"><img src="./img/footer/youtube.png" class="imgRedes"></a>
+                <a href="#"><img src="./img/footer/spotify.png" class="imgRedes"></a>
+                <a href="#"><img src="./img/footer/soundcloud.png" class="imgRedes"></a>
+                <a href="#"><img src="./img/footer/facebook.png" class="imgRedes"></a>
+                <a href="#"><img src="./img/footer/instagram.png" class="imgRedes"></a>
+                </td>  
+            </th>
+        </tr>
         <tr>
             <th>
                 <td><p class="footerTitulo"> whalecome </p></td>
@@ -145,6 +116,5 @@
         <li><a href="#">Política de privacidad</a></li>
      </ul>
   </footer>   
-  <script src="scripts/script.js"></script>
 </body>
 </html>
