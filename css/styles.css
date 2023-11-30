@@ -103,13 +103,14 @@
 footer{
     height: auto;
     background-color: #070707;
-    color: white;
+    color: #f3f3f3;
 }
 
 table p {
     text-align:initial;
     margin-left: 10px;
     margin-bottom: 0;
+    color: #f3f3f3;
 }
 
 footer ul {
@@ -280,6 +281,16 @@ padding-top: 13%;
     width: 15%;
     height: 30%;
   }
+
+.gifLogoVert {
+    width: 10%;
+    height: 30%;
+}
+
+.gifLogoJB {
+    width: 12%;
+    height: 25%;
+}
 
 .textoRedes{
     color: #ccc;
